@@ -11,7 +11,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_C_INCLUDES := \
     $(call include-path-for, libhardware_legacy)/hardware_legacy \
-    frameworks/base/include \
+    frameworks/native/include \
     system/core/include
 
 LOCAL_PRELINK_MODULE := false
@@ -19,7 +19,7 @@ LOCAL_PRELINK_MODULE := false
 LOCAL_NDK_VERSION := 4
 LOCAL_SDK_VERSION := 8
 
-LOCAL_MODULE := libwimax_jni
+LOCAL_MODULE := libwimaxjni
 
 LOCAL_MODULE_TAGS := optional
 
